@@ -1,0 +1,82 @@
+header{
+    background-color: black;
+    text-align: center;
+}
+header h1{
+    color: aliceblue;
+    padding: 10px;
+}
+header nav ul{
+    padding: 10px;
+}
+#header nav,ul,li{
+    color: salmon;
+    display: inline;
+    padding: 40px;
+}
+header nav,ul,li a{
+    color:sandybrown;
+    text-decoration: none;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+#Home{
+    text-align: center;
+} 
+body{
+    text-align: center;
+    background-image: url('Backgroundimageforportfolio.jpg');
+}   
+#Home img{
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+    text-align: center;
+}
+#Bio{
+    background-color:rgba(42, 140, 165, 0.453);
+}
+#Portfolio{
+    background-color: gray;
+    text-align: center;
+}
+#Skill nav,ul,li{
+    display: inline;
+    color: thistle;
+    padding:50px;
+}
+#Skill.two{
+    border-style:solid;
+    border-width:medium;
+}
+#Contact{
+    background-color:rgba(192, 192, 192, 0.137);
+    table,th,tr,td{
+        background-color:rgba(192, 192, 192, 0.185);
+        border: 2px solid rgb(211, 224, 229);
+        border-collapse: collapse;
+        text-align: center;
+    }
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    color: aliceblue;
+}
+footer{
+position: relative
+padding =10px;
+}
+footer #1 {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-align: right;
+    font-size: 14px;
+    margin:0;
+    line-height:1.5;
+}
